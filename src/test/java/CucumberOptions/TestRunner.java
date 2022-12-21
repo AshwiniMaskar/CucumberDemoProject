@@ -9,8 +9,8 @@ import io.cucumber.junit.Cucumber;
   features="src/test/java/FeatureFiles",
   glue="StepDefinations",
   //dryRun=true,
-  plugin = { "pretty" },
-  // plugin = { "usage" }, 
+  //plugin = { "pretty" },
+   plugin = { "usage" }, 
    monochrome=true
  
 		)
